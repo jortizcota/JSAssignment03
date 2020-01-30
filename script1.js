@@ -10,11 +10,15 @@
 
 for (let i = 1; i <= 4; i++) {
   let output = "";
-  for(let j = 1; j >= i; j++){
-    console.log(output += "#");
+  for (let j = 1; j <= i; j++) {
+    output += "#";
   }
-  console.log(i);
+  console.log(output);
 }
 for (let i = 3; i >= 1; i--) {
-  console.log(i);
+  let output = "";
+  for (let j = 1; j <= i; j++) {
+    output += "#";
+  }
+  console.log(output);
 }
